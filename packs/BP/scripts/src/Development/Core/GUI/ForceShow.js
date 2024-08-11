@@ -17,6 +17,6 @@ export async function forceShow(player, form, timeout = Infinity) {
         if (response.cancelationReason !== "userBusy") {
             return response;
         }
-    };
+    }
     throw new Error(`Timed out after ${timeout} ticks`);
-};
+}

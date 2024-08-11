@@ -8,7 +8,7 @@ export class BeforeEventSignal {
     }
 
     unsubscribe(callback) {
-        this.#listeners.splice(this.#listeners.findIndex(data => data == callback))
+        this.#listeners.splice(this.#listeners.findIndex(data => data === callback))
     }
 
     broadcast(arg) {
