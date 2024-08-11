@@ -21,7 +21,7 @@
         {
             "type": "script",
             "language": "javascript",
-            "entry": "scripts/Production/entry.js",
+            "entry": "scripts/dist/Production/entry.js",
             "uuid": "af68fb0d-6b19-4220-9f46-59219739d0e1",
             "version": [
                 1,
