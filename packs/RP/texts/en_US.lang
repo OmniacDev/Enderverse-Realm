@@ -1,0 +1,6 @@
+entity.ec:zombie_pirate.name=Pirate Zombie
+item.ec:coin=Coins
+item.ec:pirate_helmet=Pirate Hat
+item.ec:pirate_token=Pirate Hat Token
+item.spawn_egg.entity.ec:zombie_pirate.name=Spawn Pirate Zombie
+

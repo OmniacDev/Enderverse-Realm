@@ -1,0 +1,79 @@
+{
+	"root_panel": {
+		"modifications": [
+			{
+				"control_name": "hud_title_text_area",
+				"operation": "replace",
+				"value": [
+					{
+						"hud_title_text_area": {
+							"type": "panel",
+							"factory": {
+								"name": "hud_title_text_factory",
+								"control_ids": {
+									"hud_title_text": "sidebar_title_text@hud.sidebar_title_text"
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	},
+
+	"sidebar_title_text": {
+		"type": "panel",
+		"size": [
+			"100%c",
+			"100%c"
+		],
+		"anchor_from": "right_middle",
+		"anchor_to": "right_middle",
+		"alpha": 1,
+
+		"controls": [
+			{
+				"sidebar_panel": {
+					"type": "panel",
+					"size": [
+						"100%cm",
+						"100%cm"
+					],
+					"anchor_to": "right_middle",
+					"anchor_from": "right_middle",
+					"offset": [-4, 0],
+					"controls": [
+						{
+							"sidebar_backdrop": {
+								"type": "image",
+								"alpha": 0.6,
+								"size": [
+									"100%sm + 12px",
+									"100%sm + 12px"
+								],
+								"anchor_to":"center",
+								"anchor_from": "center",
+								"texture": "textures/ui/hud_tip_text_background",
+								"layer": 1,
+								"controls": [
+								]
+							}
+						},
+						{
+							"sidebar_text": {
+								"type": "label",
+								"text": "$title_text",
+								"shadow": true,
+								"anchor_to": "center",
+								"anchor_from": "center",
+								"offset": [0, 0],
+								"color": "$tool_tip_text",
+								"layer": 2
+							}
+						}
+					]
+				}
+			}
+		]
+	}
+}

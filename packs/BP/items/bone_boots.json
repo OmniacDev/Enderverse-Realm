@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.boots"
+			},
+			"identifier": "ec:bone_boots"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Bone Boots"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 9,
+				"slot": "armor_feet"
+			},
+			"minecraft:icon": {
+				"texture": "bone_boots"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.feet",
+				"protection": 5
+			}
+		}
+	}
+}

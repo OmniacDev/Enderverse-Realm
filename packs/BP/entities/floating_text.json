@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ec:floating_text",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 0.5
+			},
+			"minecraft:scale": {
+				"value": 0
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:nameable": {
+				"always_show": true,
+				"allow_name_tag_renaming": true
+			}
+		}
+	}
+}

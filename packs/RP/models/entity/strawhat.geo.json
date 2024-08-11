@@ -1,0 +1,203 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.strawhat",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [
+					0,
+					0.25,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [
+						0,
+						-6,
+						1
+					]
+				},
+				{
+					"name": "straw",
+					"parent": "head",
+					"pivot": [
+						0,
+						-12,
+						-1
+					],
+					"rotation": [
+						-5,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-4.5,
+								1,
+								-10.5
+							],
+							"size": [
+								9,
+								3,
+								9
+							],
+							"pivot": [
+								0,
+								0,
+								-3
+							],
+							"rotation": [
+								0,
+								180,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										9,
+										24
+									],
+									"uv_size": [
+										9,
+										3
+									]
+								},
+								"east": {
+									"uv": [
+										0,
+										24
+									],
+									"uv_size": [
+										9,
+										3
+									]
+								},
+								"south": {
+									"uv": [
+										27,
+										24
+									],
+									"uv_size": [
+										9,
+										3
+									]
+								},
+								"west": {
+									"uv": [
+										18,
+										24
+									],
+									"uv_size": [
+										9,
+										3
+									]
+								},
+								"up": {
+									"uv": [
+										9,
+										15
+									],
+									"uv_size": [
+										9,
+										9
+									]
+								},
+								"down": {
+									"uv": [
+										45.5,
+										20.5
+									],
+									"uv_size": [
+										9,
+										-9
+									]
+								}
+							}
+						},
+						{
+							"origin": [
+								-7.5,
+								1,
+								-13.5
+							],
+							"size": [
+								15,
+								0,
+								15
+							],
+							"pivot": [
+								0,
+								0,
+								-3
+							],
+							"rotation": [
+								0,
+								180,
+								0
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										15,
+										15
+									],
+									"uv_size": [
+										15,
+										0
+									]
+								},
+								"east": {
+									"uv": [
+										0,
+										15
+									],
+									"uv_size": [
+										15,
+										0
+									]
+								},
+								"south": {
+									"uv": [
+										45,
+										15
+									],
+									"uv_size": [
+										15,
+										0
+									]
+								},
+								"west": {
+									"uv": [
+										30,
+										15
+									],
+									"uv_size": [
+										15,
+										0
+									]
+								},
+								"up": {
+									"uv": [
+										15,
+										0
+									],
+									"uv_size": [
+										15,
+										15
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

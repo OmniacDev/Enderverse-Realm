@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ec:bone_chestplate.player",
+			"item": {
+				"ecam:bone_chestplate": "query.is_owner_identifier_any == 'minecraft:player'"
+			},
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"geometry": {
+				"default": "geometry.bone_chestplate"
+			},
+			"textures": {
+				"default": "textures/models/armor/bonechestplate",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"scripts": {
+				"parent_setup": "variable.chest_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

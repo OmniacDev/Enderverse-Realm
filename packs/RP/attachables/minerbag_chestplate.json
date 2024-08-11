@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "ec:minerbag",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"geometry": {
+				"default": "geometry.minerbag"
+			},
+			"textures": {
+				"enchanted": "textures/misc/enchanted_item_glint",
+				"default": "textures/entity/minerbag/minerbag"
+			},
+			"scripts": {
+				"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+			},
+			"render_controllers": [
+				"controller.render.armor"
+			]
+		}
+	}
+}

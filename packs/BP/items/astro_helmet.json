@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment"
+			},
+			"identifier": "ec:astro_helmet"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Space Helmet"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "astro"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			}
+		}
+	}
+}

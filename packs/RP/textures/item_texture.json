@@ -1,0 +1,119 @@
+{
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"bone_helmet": {
+			"textures": [
+				"textures/items/bone_helmet"
+			]
+		},
+		"bone_chestplate": {
+			"textures": [
+				"textures/items/bone_chestplate"
+			]
+		},
+		"bone_leggings": {
+			"textures": [
+				"textures/items/bone_leggings"
+			]
+		},
+		"bone_boots": {
+			"textures": [
+				"textures/items/bone_boots"
+			]
+		},
+		"red_helmet": {
+			"textures": [
+				"textures/items/red_helmet"
+			]
+		},
+		"blue_helmet": {
+			"textures": [
+				"textures/items/blue_helmet"
+			]
+		},
+		"pirate_token": {
+			"textures": "textures/items/pirate_token.png"
+		},
+		"piratehat": {
+			"textures": "textures/items/piratehat.png"
+		},
+		"coin": {
+			"textures": "textures/items/coin.png"
+		},
+		"text": {
+			"textures": [
+				"textures/items/floating_text"
+			]
+		},
+		"vipastro": {
+			"textures": [
+				"textures/items/vipastro"
+			]
+		},
+		"astro": {
+			"textures": [
+				"textures/items/astro"
+			]
+		},
+		"cowboy": {
+			"textures": [
+				"textures/items/cowboy"
+			]
+		},
+		"vipcowboy": {
+			"textures": [
+				"textures/items/cowboyvip"
+			]
+		},
+		"vipknight": {
+			"textures": [
+				"textures/items/vipknight"
+			]
+		},
+		"knight": {
+			"textures": [
+				"textures/items/knight"
+			]
+		},
+		"miner": {
+			"textures": [
+				"textures/items/miner"
+			]
+		},
+		"oni": {
+			"textures": [
+				"textures/items/oni"
+			]
+		},
+		"dino": {
+			"textures": [
+				"textures/items/dino"
+			]
+		},
+		"strawhat": {
+			"textures": [
+				"textures/items/strawhat"
+			]
+		},
+		"tiki": {
+			"textures": [
+				"textures/items/tiki"
+			]
+		},
+		"crown": {
+			"textures": [
+				"textures/items/crown"
+			]
+		},
+		"slapper_config": {
+			"textures": [
+				"textures/items/slapper_config"
+			]
+		},
+		"admin_menu": {
+			"textures": [
+				"textures/items/admin_menu"
+			]
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment"
+			},
+			"identifier": "ec:cowboy_helmet"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Cowboy Hat"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "cowboy"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			}
+		}
+	}
+}

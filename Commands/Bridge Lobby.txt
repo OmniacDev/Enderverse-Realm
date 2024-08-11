@@ -1,0 +1,81 @@
+##############################################
+### RUNS WHEN TWO PLAYERS ARE IN THE LOBBY ###
+##############################################
+
+----------------------------------------
+
+/titleraw @a[r=1000] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n §r§72 Players Needed\n 4 Players Max \n"},{"text":" §7Players §a2/2 \n§7 Starting in: §a10 \n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":"\n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=1000] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n §r§72 Players Needed\n 4 Players Max \n"},{"text":" §7Players §a2/2 \n§7 Starting in: §a9 \n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":"\n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=1000] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n §r§72 Players Needed\n 4 Players Max \n"},{"text":" §7Players §a2/2 \n§7 Starting in: §a8 \n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":"\n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=1000] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n §r§72 Players Needed\n 4 Players Max \n"},{"text":" §7Players §a2/2 \n§7 Starting in: §a7 \n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":"\n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=1000] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n §r§72 Players Needed\n 4 Players Max \n"},{"text":" §7Players §a2/2 \n§7 Starting in: §a6 \n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":"\n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=1000] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n §r§72 Players Needed\n 4 Players Max \n"},{"text":" §7Players §a2/2 \n§7 Starting in: §e5 \n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":"\n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=1000] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n §r§72 Players Needed\n 4 Players Max \n"},{"text":" §7Players §a2/2 \n§7 Starting in: §e4 \n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":"\n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=1000] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n §r§72 Players Needed\n 4 Players Max \n"},{"text":" §7Players §a2/2 \n§7 Starting in: §63 \n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":"\n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+/playsound note.pling @a[r=1000]
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=1000] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n §r§72 Players Needed\n 4 Players Max \n"},{"text":" §7Players §a2/2 \n§7 Starting in: §c2 \n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":"\n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+/playsound note.pling @a[r=1000]
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=1000] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n §r§72 Players Needed\n 4 Players Max \n"},{"text":" §7Players §a2/2 \n§7 Starting in: §41 \n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":"\n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+/playsound note.pling @a[r=1000]
+
+>>> WAIT 20 <<<
+
+/playsound random.levelup @a[r=1000]
+
+/tag @r[r=100,tag=!bridgered,tag=!bridgeblue] add bridgered
+
+/tag @r[r=100,tag=!bridgered,tag=!bridgeblue] add bridgeblue
+
+/tag @r[r=100,tag=!bridgered,tag=!bridgeblue] add bridgered
+
+/tag @r[r=100,tag=!bridgered,tag=!bridgeblue] add bridgeblue
+
+>>> NEW ROUND <<<
+
+/scoreboard players set @a[tag=bridgeplay] winblue 0
+
+/scoreboard players set @a[tag=bridgeplay] winred 0
+
+/scoreboard players set @a[tag=bridgeplay] redpoint 0
+
+/scoreboard players set @a[tag=bridgeplay] bluepoint 0
+
+>>> ONGOING GAME TITLE <<< /setblock 7530.54 289.00 8026.30 redstone_block
+
+>>> DISABLE NEW GAME <<< /setblock 7533.47 289.00 8028.70 air
+
+/spawnpoint @a[tag=bridgeblue] 7997.36 314.00 7969.51
+
+/spawnpoint @a[tag=bridgered] 8003.64 314.20 8031.67
+
+----------------------------------------

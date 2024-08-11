@@ -1,0 +1,251 @@
+###################
+### START ROUND ###
+###################
+
+----------------------------------------
+
+/titleraw @a[r=200] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n§r§7 Score 3 points! §7\n"},{"text":" §7Cages Drop In: §e5 \n§7"},{"text":"\n§r§7 Red Score: §c"},{"score":{"name":"*","objective":"redpoint"}},{"text":"/3\n§r§7 Blue Score: §9"},{"score":{"name":"*","objective":"bluepoint"}},{"text":"/3\n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":" \n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=200] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n§r§7 Score 3 points! §7\n"},{"text":" §7Cages Drop In: §e4 \n§7"},{"text":"\n§r§7 Red Score: §c"},{"score":{"name":"*","objective":"redpoint"}},{"text":"/3\n§r§7 Blue Score: §9"},{"score":{"name":"*","objective":"bluepoint"}},{"text":"/3\n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":" \n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=200] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n§r§7 Score 3 points! §7\n"},{"text":" §7Cages Drop In: §63 \n§7"},{"text":"\n§r§7 Red Score: §c"},{"score":{"name":"*","objective":"redpoint"}},{"text":"/3\n§r§7 Blue Score: §9"},{"score":{"name":"*","objective":"bluepoint"}},{"text":"/3\n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":" \n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=200] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n§r§7 Score 3 points! §7\n"},{"text":" §7Cages Drop In: §c2 \n§7"},{"text":"\n§r§7 Red Score: §c"},{"score":{"name":"*","objective":"redpoint"}},{"text":"/3\n§r§7 Blue Score: §9"},{"score":{"name":"*","objective":"bluepoint"}},{"text":"/3\n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":" \n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=200] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n§r§7 Score 3 points! §7\n"},{"text":" §7Cages Drop In: §41 \n§7"},{"text":"\n§r§7 Red Score: §c"},{"score":{"name":"*","objective":"redpoint"}},{"text":"/3\n§r§7 Blue Score: §9"},{"score":{"name":"*","objective":"bluepoint"}},{"text":"/3\n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":" \n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> WAIT 20 <<<
+
+/titleraw @a[r=200] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n§r§7 Score 3 points! §7\n"},{"text":" §7Cages Drop In: §bGO! \n§7"},{"text":"\n§r§7 Red Score: §c"},{"score":{"name":"*","objective":"redpoint"}},{"text":"/3\n§r§7 Blue Score: §9"},{"score":{"name":"*","objective":"bluepoint"}},{"text":"/3\n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":" \n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+/setblock 8003.46 313.00 8031.70 air
+
+/setblock 7997.70 313.00 7969.30 air
+
+/playsound mob.wither.death @a[r=200]
+
+/fill 7987 289 7989 8013 319 8013 air replace wool
+
+/fill 8012 289 8041 7987 319 8004 air replace wool
+
+/fill 8012 319 7993 7987 289 7959 air replace wool
+
+----------------------------------------
+
+#################
+### NEW ROUND ###
+#################
+
+----------------------------------------
+
+/clear @a[tag=bridgeplay]
+
+/setblock 8003.46 313.00 8031.70 glass
+
+/setblock 7997.70 313.00 7969.30 glass
+
+/tag @a[tag=bridgered] add bridgeplay
+
+/tag @a[tag=bridgeblue] add bridgeplay
+
+/replaceitem entity @a[tag=bridgered] slot.armor.head 1 ecam:red_helmet 1 0 {"keep_on_death":{}}
+
+/replaceitem entity @a[tag=bridgeblue] slot.armor.head 1 ecam:blue_helmet 1 0 {"keep_on_death":{}}
+
+/replaceitem entity @a[tag=bridgeplay] slot.armor.chest 1 iron_chestplate 1 0 {"keep_on_death":{}}
+
+/replaceitem entity @a[tag=bridgeplay] slot.armor.legs 1 iron_leggings 1 0 {"keep_on_death":{}}
+
+/replaceitem entity @a[tag=bridgeplay] slot.armor.feet 1 iron_boots 1 0 {"keep_on_death":{}}
+
+/replaceitem entity @a[tag=bridgeplay] slot.hotbar 0 iron_sword 1 0 {"keep_on_death":{}}
+
+/replaceitem entity @a[tag=bridgeplay] slot.hotbar 1 bow 1 0 {"keep_on_death":{}}
+
+/replaceitem entity @a[tag=bridgeplay] slot.hotbar 3 arrow 1 0 {"keep_on_death":{}}
+
+/give @a[tag=bridgeplay] golden_apple 5 0 {"keep_on_death":{}}
+
+/give @a[tag=bridgered] red_wool 128 0 {"can_place_on":{"blocks":["concrete","wool"]},"keep_on_death":{}}
+
+/give @a[tag=bridgeblue] blue_wool 128 0 {"can_place_on":{"blocks":["concrete","wool"]},"keep_on_death":{}}
+
+>>> START ROUND <<< /setblock 8000.30 296.00 8027.40 redstone_block
+
+/tp @a[tag=bridgered,r=100] 8003.47 314.00 8031.31 facing 8003.20 314.02 8025.10
+
+/tp @a[tag=bridgeblue,r=100] 7997.36 314.00 7969.51 facing 7997.50 312.61 7980.26
+
+/give @a[tag=bridgeplay] shears 1 0 {"can_destroy":{"blocks":["wool"]},"keep_on_death":{}}
+
+----------------------------------------
+
+##############
+### REPEAT ###
+##############
+
+----------------------------------------
+
+/enchant @a[tag=bridgeplay,hasitem={item=bow,location=slot.weapon.mainhand}] infinity
+
+/scoreboard players add @a[r=300] redpoint 0
+
+/scoreboard players add @a[r=300] bluepoint 0
+
+/effect @a[x=7997.70,y=313.00,z=7969.30,r=2] instant_health 1 100 true
+
+/effect @a[x=8003.46,y=313.00,z=8031.70,r=2] instant_health 1 100 true
+
+/execute at @a[r=300,tag=bridgered] if block ~ ~-1 ~ barrier run tp @p 8003.45 313.88 8031.36
+
+/execute at @a[r=300,tag=bridgeblue] if block ~ ~-1 ~ barrier run tp @p 7997.32 314.00 7969.30
+
+----------------------------------------
+
+#################
+### BLUE GOAL ###
+#################
+
+----------------------------------------
+
+/testfor @a[tag=bridgered,r=3]
+
+>>> IF TRUE <<<
+
+/playsound note.pling @a[tag=bridgeplay]
+
+/tellraw @a[tag=bridgeplay] {"rawtext":[{"text":"§7[!]§r §cRed §7team has scored! §c+1"}]}
+
+/scoreboard players add @a[tag=bridgeplay] redpoint 1
+
+/titleraw @a[r=200] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n§r§7 Score 3 points! §7\n"},{"text":" §7Cages Drop In: §bGO! \n§7"},{"text":"\n§r§7 Red Score: §c"},{"score":{"name":"*","objective":"redpoint"}},{"text":"/3\n§r§7 Blue Score: §9"},{"score":{"name":"*","objective":"bluepoint"}},{"text":"/3\n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":" \n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> NEW ROUND <<< /setblock 8002.41 296.00 8028.30 redstone_block 
+
+/scoreboard players add @a[tag=bridgered] winred 1
+
+----------------------------------------
+
+/testfor @a[tag=bridgeblue,r=3]
+
+>>> IF TRUE <<< 
+
+/playsound beacon.deactivate @p[tag=bridgeblue]
+
+/tellraw @p[tag=bridgeblue] {"rawtext":[{"text":"§cYou cannot jump into your own goal!"}]}
+
+/tp @a[tag=bridgeblue,r=100] 7997.36 313.00 7969.51 facing 7997.50 312.61 7980.26
+
+----------------------------------------
+
+#################
+### RED GOAL ###
+#################
+
+----------------------------------------
+
+/testfor @a[tag=bridgeblue,r=3]
+
+>>> IF TRUE <<<
+
+/playsound note.pling @a[tag=bridgeplay]
+
+/tellraw @a[tag=bridgeplay] {"rawtext":[{"text":"§7[!]§r §9Blue §7team has scored! §9+1"}]}
+
+/scoreboard players add @a[tag=bridgeplay] bluepoint 1
+
+/titleraw @a[r=200] title {"rawtext":[{"text":" §r§l§dTHE BRIDGE §b"},{"text":"\n§r§7 Score 3 points! §7\n"},{"text":" §7Cages Drop In: §bGO! \n§7"},{"text":"\n§r§7 Red Score: §c"},{"score":{"name":"*","objective":"redpoint"}},{"text":"/3\n§r§7 Blue Score: §9"},{"score":{"name":"*","objective":"bluepoint"}},{"text":"/3\n\n§r§7 Level: §b"},{"score":{"name":"*","objective":"level"}},{"text":" \n§r§7 Money: §a$§a"},{"score":{"name":"*","objective":"money"}},{"text":"\n §r§7Keys: §a"},{"score":{"name":"*","objective":"keys"}},{"text":"\n\n§r §eDiscord: EqTsWvS2HB \n "},{"text":"§r§dRealm: QGWOhMmBmuI §a"}]}
+
+>>> NEW ROUND <<< /setblock 8002.41 296.00 8028.30 redstone_block
+
+/scoreboard players add @a[tag=bridgeblue] winblue 1
+
+----------------------------------------
+
+/testfor @a[tag=bridgered,r=3]
+
+>>> IF TRUE <<< 
+
+/playsound beacon.deactivate @p[tag=bridgered]
+
+/tellraw @p[tag=bridgered] {"rawtext":[{"text":"§cYou cannot jump into your own goal!"}]}
+
+/tp @p[tag=bridgered,r=100] 8003.47 314.00 8031.31 facing 8003.20 314.02 8025.10
+
+----------------------------------------
+
+###############
+### RED WIN ###
+###############
+
+----------------------------------------
+
+/testfor @a[r=300,scores={winblue=3..}]
+
+>>> IF TRUE <<<
+
+/tellraw @a[r=300,tag=bridgeblue] { "rawtext" : [ { "text" : "§a§lYOU WON! §r§7You won a game of The Bridge! §a+$50 §b+50 XP" } ] }
+
+/scoreboard players add @a[r=200,tag=bridgeblue] money 50
+
+/scoreboard players add @a[r=200,tag=bridgeblue] xp 50
+
+/tellraw @a[r=300,tag=bridgered] { "rawtext" : [ { "text" : "§c§lYOU LOST! §r§7Better luck next time! §a+$0 §b+0 XP" } ] }
+
+/tag @a[r=200,tag=bridgeblue] add winner
+
+/tag @a[r=200,tag=bridgeplay] remove bridgered
+
+/tag @a[r=200,tag=bridgeplay] remove bridgeblue
+
+/clear @a[r=300,tag=bridgeplay]
+
+>>> ENABLE NEW GAME <<< /setblock 7533.47 289.00 8028.70 redstone_wire
+
+/spawnpoint @a[tag=bridgeplay] 0 158 -236
+
+/tp @a[r=300,tag=bridgeplay] 0 158 -236
+
+----------------------------------------
+
+################
+### BLUE WIN ###
+################
+
+----------------------------------------
+
+/testfor @a[r=300,scores={winred=3..}]
+
+>>> IF TRUE <<<
+
+/tellraw @a[r=300,tag=bridgered] { "rawtext" : [ { "text" : "§a§lYOU WON! §r§7You won a game of The Bridge! §a+$50 §b+50 XP" } ] }
+
+/scoreboard players add @a[r=200,tag=bridgered] money 50
+
+/scoreboard players add @a[r=200,tag=bridgered] xp 50
+
+/tellraw @a[r=300,tag=bridgeblue] { "rawtext" : [ { "text" : "§c§lYOU LOST! §r§7Better luck next time! §a+$0 §b+0 XP" } ] }
+
+/tag @a[r=200,tag=bridgered] add winner
+
+/tag @a[r=200,tag=bridgeplay] remove bridgered
+
+/tag @a[r=200,tag=bridgeplay] remove bridgeblue
+
+/clear @a[r=300,tag=bridgeplay]
+
+>>> ENABLE NEW GAME <<< /setblock 7533.47 289.00 8028.70 redstone_wire
+
+/spawnpoint @a[tag=bridgeplay] 0 158 -236
+
+/tp @a[r=300,tag=bridgeplay] 0 158 -236
+
+----------------------------------------

@@ -1,0 +1,70 @@
+{
+    "namespace": "server_form",
+
+	"third_party_server_screen@common.base_screen": {
+		"$screen_content": "server_form.main_screen_content",
+		"$screen_animations": [
+			"@server_form.exit_wait_pop_alpha",
+            "@server_form.exit_wait_push_alpha",
+            "@server_form.entrance_wait_pop_alpha",
+            "@server_form.entrance_wait_push_alpha"
+		],
+		"$background_animations": [
+			"@server_form.exit_wait_pop_alpha",
+            "@server_form.exit_wait_push_alpha",
+            "@server_form.entrance_wait_pop_alpha",
+            "@server_form.entrance_wait_push_alpha"
+		],
+		"button_mappings": [
+			{
+				"from_button_id": "button.menu_cancel",
+				"to_button_id": "button.menu_exit",
+				"mapping_type": "global"
+			}
+		]
+	},
+
+	"exit_wait_pop_alpha": {
+		"anim_type": "alpha",
+        "scale_from_starting_alpha": true,
+		"easing": "out_cubic",
+		"duration": 0.2,
+		"from": 1.0,
+		"to": 0.0,
+		"play_event": "screen.exit_pop",
+		"end_event": "screen.exit_end"
+	},
+
+    "exit_wait_push_alpha": {
+		"anim_type": "alpha",
+        "scale_from_starting_alpha": true,
+		"easing": "out_cubic",
+		"duration": 0.2,
+		"from": 1.0,
+		"to": 0.0,
+		"play_event": "screen.exit_push",
+		"end_event": "screen.exit_end"
+	},
+
+    "entrance_wait_pop_alpha": {
+		"anim_type": "alpha",
+        "scale_from_starting_alpha": true,
+		"easing": "out_cubic",
+		"duration": 0.2,
+		"from": 0.0,
+		"to": 1.0,
+		"play_event": "screen.entrance_pop",
+		"end_event": "screen.entrance_end"
+	},
+
+    "entrance_wait_push_alpha": {
+		"anim_type": "alpha",
+        "scale_from_starting_alpha": true,
+		"easing": "out_cubic",
+		"duration": 0.2,
+		"from": 0.0,
+		"to": 1.0,
+		"play_event": "screen.entrance_push",
+		"end_event": "screen.entrance_end"
+	}
+}

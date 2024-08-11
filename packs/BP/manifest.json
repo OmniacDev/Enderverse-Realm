@@ -1,0 +1,54 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§dEnderverse §uRealm §r§8[BP]",
+        "description": "Behaviour pack for the Enderverse Realm. Created by §sOmniac",
+        "uuid": "83b0e981-cb4d-49fc-b716-80e37b316850",
+        "version": [
+            1, 
+            0, 
+            3
+        ],
+        "min_engine_version": [
+            1, 
+            20, 
+            0
+        ]   
+        
+    },
+
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/Production/entry.js",
+            "uuid": "af68fb0d-6b19-4220-9f46-59219739d0e1",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "data",
+            "uuid": "5bd58686-341c-4a0a-83ab-ccfb35b6a559",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+
+
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}

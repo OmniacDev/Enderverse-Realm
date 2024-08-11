@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment"
+			},
+			"identifier": "ec:vipknight_helmet"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "§e[VIP]§r §fKnight Helmet"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "vipknight"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			}
+		}
+	}
+}

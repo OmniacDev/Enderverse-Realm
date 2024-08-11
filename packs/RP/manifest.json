@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§dEnderverse §uRealm §r§8[RP]",
+        "description": "Resource pack for the Enderverse Realm. Created by §sOmniac",
+        "uuid": "d2646a16-412d-4db7-8646-85019a1f3f05",
+        "version": [
+            1,
+            0,
+            3
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "f89220b3-a17a-4fa7-be44-4d33c369b4f0",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
