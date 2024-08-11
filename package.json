@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "format": "prettier --write ./packs/BP/scripts/src"
+    "format": "prettier --write ./packs/BP/scripts/src",
+    "build": "tsc"
   },
   "dependencies": {
     "@minecraft/common": "^1.2.0",
