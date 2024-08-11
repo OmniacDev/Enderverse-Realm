@@ -2,3 +2,5 @@ build
 .regolith
 .idea
 node_modules
+
+packs/BP/scripts/dist
