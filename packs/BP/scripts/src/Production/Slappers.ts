@@ -38,7 +38,7 @@ world.afterEvents.entityHitEntity.subscribe(data => {
   }
 })
 
-function EditSlapper(arg: {player: Player, slapper: Entity}) {
+function EditSlapper(arg: { player: Player; slapper: Entity }) {
   const gamemode_names = config.gamemodes.map(entry => {
     return entry.display_name
   })
@@ -54,7 +54,7 @@ function EditSlapper(arg: {player: Player, slapper: Entity}) {
   // @ts-ignore
   EditForm.show(arg.player).then(response => {
     if (!response.canceled) {
-      if (response.formValues ) {
+      if (response.formValues) {
         if (response.formValues[1]) DeactivateSlapper(arg)
         else {
           const gamemode_index = response.formValues[0] as number
@@ -67,11 +67,11 @@ function EditSlapper(arg: {player: Player, slapper: Entity}) {
   })
 }
 
-function DeactivateSlapper(arg: { player: Player, slapper: Entity}) {
+function DeactivateSlapper(arg: { player: Player; slapper: Entity }) {
   const DeactivateConfirmationForm = new MessageFormData()
     .title('§cDEACTIVATE SLAPPER')
     .body(
-      'Are you sure you want to §c\ deactivate\ §r this slapper? (This will remove all settings and return the slapper to its default NPC state)'
+      'Are you sure you want to §c deactivate §r this slapper? (This will remove all settings and return the slapper to its default NPC state)'
     )
     .button1('NO')
     .button2('YES')
@@ -87,7 +87,7 @@ function DeactivateSlapper(arg: { player: Player, slapper: Entity}) {
   })
 }
 
-function CreateSlapper(arg: { player: Player, slapper: Entity}) {
+function CreateSlapper(arg: { player: Player; slapper: Entity }) {
   const CreateForm = new MessageFormData()
     .title('§8CREATE SLAPPER')
     .body('Create new slapper?')
@@ -105,7 +105,7 @@ function CreateSlapper(arg: { player: Player, slapper: Entity}) {
   })
 }
 
-function RunSlapper(arg: { player: Player, slapper: Entity}) {
+function RunSlapper(arg: { player: Player; slapper: Entity }) {
   const gamemode_id: string = arg.slapper.getDynamicProperty(config.properties.gamemode_id) as string
 
   if (gamemode_id !== undefined) {
