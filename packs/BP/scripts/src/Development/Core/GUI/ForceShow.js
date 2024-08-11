@@ -1,5 +1,5 @@
-import { Player, system } from "@minecraft/server";
-import { ActionFormData, MessageFormData, ModalFormData } from "@minecraft/server-ui";
+import { Player, system } from '@minecraft/server'
+import { ActionFormData, MessageFormData, ModalFormData } from '@minecraft/server-ui'
 
 /**
  * @template {ActionFormData | MessageFormData | ModalFormData} FormData
@@ -10,13 +10,13 @@ import { ActionFormData, MessageFormData, ModalFormData } from "@minecraft/serve
  */
 
 export async function forceShow(player, form, timeout = Infinity) {
-    const startTick = system.currentTick;
-    
-    while ((system.currentTick - startTick) < timeout) {
-        const response = await /** @type {ReturnType<FormData["show"]>} */(form.show(player));
-        if (response.cancelationReason !== "userBusy") {
-            return response;
-        }
+  const startTick = system.currentTick
+
+  while (system.currentTick - startTick < timeout) {
+    const response = await /** @type {ReturnType<FormData["show"]>} */ (form.show(player))
+    if (response.cancelationReason !== 'userBusy') {
+      return response
     }
-    throw new Error(`Timed out after ${timeout} ticks`);
+  }
+  throw new Error(`Timed out after ${timeout} ticks`)
 }

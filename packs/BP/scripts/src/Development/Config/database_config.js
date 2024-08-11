@@ -1,4 +1,4 @@
 export const properties = {
-    prefix: 'database',
-    seperator: ':'
+  prefix: 'database',
+  seperator: ':'
 }
