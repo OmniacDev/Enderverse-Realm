@@ -10,7 +10,7 @@ import {
   GetRoles,
   SetDefaultRole,
   SetPlayerRole
-} from '../../Roles'
+} from '../../Media/Social/Roles'
 
 // import * as role_config from "../Config/roles_config"
 
