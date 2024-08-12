@@ -23,7 +23,6 @@ world.beforeEvents.itemUse.subscribe(data => {
         .title(`Admin Menu`)
         .button(`Roles`)
         .button(`Players`)
-        // @ts-ignore
         .show(data.source)
         .then(response => {
           if (!response.canceled) {
@@ -33,7 +32,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                   .title(`Roles`)
                   .button(`Global Roles`)
                   .button(`Default Role\n§8[ §r${GetDefaultRole()} §8]`)
-                  // @ts-ignore
                   .show(data.source)
                   .then(response => {
                     if (!response.canceled) {
@@ -43,7 +41,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                             .title(`Global Roles`)
                             .button(`Edit Roles`)
                             .button(`Create Role`)
-                            // @ts-ignore
                             .show(data.source)
                             .then(response => {
                               if (!response.canceled) {
@@ -59,7 +56,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                                         )
                                         .button1(`No`)
                                         .button2(`Yes`)
-                                        // @ts-ignore
                                         .show(data.source)
                                         .then(response => {
                                           if (!response.canceled) {
@@ -67,7 +63,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                                               new ModalFormData()
                                                 .title(`Create Role`)
                                                 .textField(``, `Unnamed`)
-                                                // @ts-ignore
                                                 .show(data.source)
                                                 .then(response => {
                                                   if (!response.canceled) {
@@ -88,7 +83,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                                         ViewRolesMenuForm.button(role)
                                       })
 
-                                      // @ts-ignore
                                       ViewRolesMenuForm.show(data.source).then(response => {
                                         if (!response.canceled && response.selection) {
                                           const selected_role = roles[response.selection]
@@ -97,7 +91,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                                             .title(`Edit Role: ${selected_role}`)
                                             .textField(``, selected_role)
                                             .toggle(`§cDelete?`, false)
-                                            // @ts-ignore
                                             .show(data.source)
                                             .then(response => {
                                               if (!response.canceled && response.formValues) {
@@ -116,7 +109,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                                     new ModalFormData()
                                       .title(`Create Role`)
                                       .textField(``, `Unnamed`)
-                                      // @ts-ignore
                                       .show(data.source)
                                       .then(response => {
                                         if (!response.canceled && response.formValues) {
@@ -134,7 +126,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                           new ModalFormData()
                             .title(`Edit Default Role: §r${GetDefaultRole()}`)
                             .textField(``, GetDefaultRole() as string)
-                            // @ts-ignore
                             .show(data.source)
                             .then(response => {
                               if (!response.canceled && response.formValues) {
@@ -157,7 +148,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                   PlayersForm.button(player.name)
                 })
 
-                // @ts-ignore
                 PlayersForm.show(data.source).then(response => {
                   if (!response.canceled && response.selection) {
                     const selected_player = players[response.selection] as Player
@@ -165,7 +155,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                     new ActionFormData()
                       .title(`Player: ${selected_player.name}`)
                       .button(`Role: ${GetPlayerRole(selected_player)}`)
-                      // @ts-ignore
                       .show(data.source)
                       .then(response => {
                         if (!response.canceled) {
@@ -175,7 +164,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                                 .title(`Set ${selected_player.name}'s Role`)
                                 .button(`Global Role`)
                                 .button(`Custom Role`)
-                                // @ts-ignore
                                 .show(data.source)
                                 .then(response => {
                                   if (!response.canceled) {
@@ -191,7 +179,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                                             )
                                             .button1(`No`)
                                             .button2(`Yes`)
-                                            // @ts-ignore
                                             .show(data.source)
                                             .then(response => {
                                               if (!response.canceled) {
@@ -199,7 +186,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                                                   new ModalFormData()
                                                     .title(`Custom Role`)
                                                     .textField(``, `Unnamed`)
-                                                    // @ts-ignore
                                                     .show(data.source)
                                                     .then(response => {
                                                       if (!response.canceled && response.formValues) {
@@ -216,7 +202,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                                             PlayerRoleGlobalForm.button(role)
                                           })
 
-                                          // @ts-ignore
                                           PlayerRoleGlobalForm.show(data.source).then(response => {
                                             if (!response.canceled && response.selection) {
                                               const selected_role = roles[response.selection]
@@ -229,7 +214,6 @@ world.beforeEvents.itemUse.subscribe(data => {
                                         new ModalFormData()
                                           .title(`Custom Role`)
                                           .textField(``, `Unnamed`)
-                                          // @ts-ignore
                                           .show(data.source)
                                           .then(response => {
                                             if (!response.canceled && response.formValues) {

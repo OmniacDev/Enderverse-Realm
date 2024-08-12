@@ -51,7 +51,6 @@ function EditSlapper(arg: { player: Player; slapper: Entity }) {
     .dropdown('GAMEMODE', gamemode_names, selected_gamemode_index)
     .toggle('§cDEACTIVATE?', false)
 
-  // @ts-ignore
   EditForm.show(arg.player).then(response => {
     if (!response.canceled) {
       if (response.formValues) {
@@ -76,7 +75,6 @@ function DeactivateSlapper(arg: { player: Player; slapper: Entity }) {
     .button1('NO')
     .button2('YES')
 
-  // @ts-ignore
   DeactivateConfirmationForm.show(arg.player).then(response => {
     if (!response.canceled) {
       if (response.selection === 1) {
@@ -94,7 +92,6 @@ function CreateSlapper(arg: { player: Player; slapper: Entity }) {
     .button1('NO')
     .button2('YES')
 
-  // @ts-ignore
   CreateForm.show(arg.player).then(response => {
     if (!response.canceled) {
       if (response.selection === 1) {
