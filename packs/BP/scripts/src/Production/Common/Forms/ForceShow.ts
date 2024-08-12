@@ -8,9 +8,9 @@ export async function ForceShow(
   form: FormData,
   timeout: number = Infinity
 ): Promise<Awaited<ReturnType<FormData['show']>>> {
-  const startTick = system.currentTick
+  const init_tick = system.currentTick
 
-  while (system.currentTick - startTick < timeout) {
+  while (system.currentTick - init_tick < timeout) {
     const response = await form.show(player)
     if (response.cancelationReason !== FormCancelationReason.UserBusy) {
       return response
