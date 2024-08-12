@@ -4,19 +4,24 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@minecraft/common": "^1.2.0",
-    "@minecraft/debug-utilities": "^1.0.0-beta.1.21.0-stable",
     "@minecraft/server": "^1.12.0-beta.1.21.0-stable",
-    "@minecraft/server-admin": "^1.0.0-beta.1.21.0-stable",
-    "@minecraft/server-editor": "^0.1.0-beta.1.21.0-stable",
     "@minecraft/server-gametest": "^1.0.0-beta.1.21.0-stable",
     "@minecraft/server-net": "^1.0.0-beta.1.21.0-stable",
-    "@minecraft/server-ui": "^1.2.0-beta.1.21.0-stable",
-    "@minecraft/vanilla-data": "^1.21.1"
+    "@minecraft/server-ui": "^1.2.0-beta.1.21.0-stable"
   },
   "devDependencies": {
-    "eslint": "^9.9.0",
     "prettier": "^3.3.3",
     "typescript": "^5.5.4"
+  },
+  "overrides": {
+    "@minecraft/server-ui": {
+      "@minecraft/server": "$@minecraft/server"
+    },
+    "@minecraft/server-net": {
+      "@minecraft/server": "$@minecraft/server"
+    },
+    "@minecraft/server-gametest": {
+      "@minecraft/server": "$@minecraft/server"
+    }
   }
 }
