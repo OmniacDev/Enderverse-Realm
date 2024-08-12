@@ -1,5 +1,5 @@
 import { world } from '@minecraft/server'
-import { GetPlayerRole } from './Roles'
+import { GetPlayerRole } from '../../Roles'
 
 world.afterEvents.playerSpawn.subscribe(data => {
   if (data.initialSpawn) {
