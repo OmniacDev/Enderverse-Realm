@@ -3,7 +3,11 @@ import { ActionFormData, FormCancelationReason, MessageFormData, ModalFormData }
 
 type FormData = ActionFormData | MessageFormData | ModalFormData
 
-export async function ForceShow(player: Player, form: FormData, timeout: number = Infinity): Promise<Awaited<ReturnType<FormData["show"]>>> {
+export async function ForceShow(
+  player: Player,
+  form: FormData,
+  timeout: number = Infinity
+): Promise<Awaited<ReturnType<FormData['show']>>> {
   const startTick = system.currentTick
 
   while (system.currentTick - startTick < timeout) {

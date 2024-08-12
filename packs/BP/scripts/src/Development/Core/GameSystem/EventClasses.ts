@@ -42,7 +42,7 @@ class PlayerConnectEventSignal {
     this.#listeners.splice(this.#listeners.findIndex(data => data === callback))
   }
 
-  broadcast(arg:  PlayerConnectEvent) {
+  broadcast(arg: PlayerConnectEvent) {
     this.#listeners.forEach(callback => callback(arg))
   }
 }

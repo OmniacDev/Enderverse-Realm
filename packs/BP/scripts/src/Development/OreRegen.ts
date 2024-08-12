@@ -20,7 +20,8 @@ world.beforeEvents.playerBreakBlock.subscribe(eventData => {
 
   if (
     OreTypes.includes(data.block.typeId) &&
-    data.dimension.getBlock({ x: data.block.location.x, y: data.block.location.y - 2, z: data.block.location.z })?.typeId === 'minecraft:orange_concrete'
+    data.dimension.getBlock({ x: data.block.location.x, y: data.block.location.y - 2, z: data.block.location.z })
+      ?.typeId === 'minecraft:orange_concrete'
   ) {
     const location_string = `${data.block.location.x}, ${data.block.location.y}, ${data.block.location.z}`
 

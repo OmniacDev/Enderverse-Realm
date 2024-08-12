@@ -19,7 +19,6 @@ export class Database {
     return this.#context?.getDynamicProperty(config.properties.prefix + config.properties.seperator + key)
   }
 
-
   set(key: string, value: string | number | boolean) {
     this.#context?.setDynamicProperty(config.properties.prefix + config.properties.seperator + key, value)
   }
@@ -66,7 +65,6 @@ export class Node {
   get value() {
     return this.#value
   }
-
 
   set parent(node: Node) {
     this.#parent = node
@@ -127,7 +125,9 @@ export class NodeDatabase {
   }
 
   add(node: Node, parent_key: string = this.#root.key): Node {
-    this.getNodes().find(node => node.key === parent_key)?.addChild(node)
+    this.getNodes()
+      .find(node => node.key === parent_key)
+      ?.addChild(node)
     return node
   }
 
@@ -135,9 +135,10 @@ export class NodeDatabase {
     return this.getNodes().find(node => node.key === key)
   }
 
-
   remove(node: Node) {
-    this.getNodes().find(n => n === node)?.parent?.removeChild(node)
+    this.getNodes()
+      .find(n => n === node)
+      ?.parent?.removeChild(node)
   }
 
   getNodes(): Node[] {

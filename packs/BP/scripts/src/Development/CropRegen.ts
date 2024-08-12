@@ -12,7 +12,8 @@ world.beforeEvents.playerBreakBlock.subscribe(eventData => {
 
   if (
     CropTypes.includes(data.block.typeId) &&
-    data.dimension.getBlock({ x: data.block.location.x, y: data.block.location.y - 2, z: data.block.location.z })?.typeId === 'minecraft:green_concrete'
+    data.dimension.getBlock({ x: data.block.location.x, y: data.block.location.y - 2, z: data.block.location.z })
+      ?.typeId === 'minecraft:green_concrete'
   ) {
     const location_str = `${data.block.location.x}, ${data.block.location.y}, ${data.block.location.z}`
     const typeId = data.block.typeId

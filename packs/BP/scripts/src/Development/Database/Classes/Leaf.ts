@@ -5,8 +5,11 @@ export class Leaf {
   protected _parent: Branch | undefined
   protected _value: string | number | boolean | undefined
 
-
-  constructor(id: string, parent: Branch | undefined = undefined, value: string | number | boolean | undefined = undefined) {
+  constructor(
+    id: string,
+    parent: Branch | undefined = undefined,
+    value: string | number | boolean | undefined = undefined
+  ) {
     this._id = id
 
     parent?.children.push(this)

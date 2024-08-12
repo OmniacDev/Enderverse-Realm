@@ -13,7 +13,7 @@ export class LobbyInstance {
     this._status = status
     this._maxPlayerCount = maxPlayerCount
 
-    this._players = new Set<Player>
+    this._players = new Set<Player>()
     this._events = new LobbyEvents()
     this._id = generateID()
   }
@@ -60,7 +60,6 @@ export class LobbyInstance {
     } else return false
   }
 
-
   close(disconnectPlayers: boolean = true) {
     this._status = `LOCKED`
 
@@ -73,8 +72,8 @@ export class LobbyInstance {
 }
 
 export class BridgeInstance extends LobbyInstance {
-  protected _redTeam: Set<Player> = new Set<Player>
-  protected _blueTeam: Set<Player> = new Set<Player>
+  protected _redTeam: Set<Player> = new Set<Player>()
+  protected _blueTeam: Set<Player> = new Set<Player>()
 
   get redTeam() {
     return this._redTeam

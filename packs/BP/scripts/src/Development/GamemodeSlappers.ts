@@ -189,9 +189,7 @@ system.afterEvents.scriptEventReceive.subscribe(eventData => {
         const gameID = entity.getDynamicProperty(`currentGameID`)
 
         if (gameID) {
-          console.warn(
-            gameManager.lobbies.find(data => data.id === gameID)?.tryDisconnectPlayer(entity as Player)
-          )
+          console.warn(gameManager.lobbies.find(data => data.id === gameID)?.tryDisconnectPlayer(entity as Player))
         }
       }
     }
