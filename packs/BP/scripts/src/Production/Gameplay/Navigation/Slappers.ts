@@ -10,7 +10,6 @@ export interface SlapperProperties {
 export const SlapperPropertyID = 'slapper.properties'
 export const SlapperConfigItem = 'ec:slapper_config'
 
-
 // OLD
 world.beforeEvents.playerInteractWithEntity.subscribe(data => {
   if (data.target.typeId === 'minecraft:npc') {
