@@ -84,7 +84,7 @@ world.beforeEvents.itemUse.subscribe(data => {
                                       })
 
                                       ViewRolesMenuForm.show(data.source).then(response => {
-                                        if (!response.canceled && response.selection) {
+                                        if (!response.canceled && response.selection !== undefined) {
                                           const selected_role = roles[response.selection]
 
                                           new ModalFormData()
@@ -149,7 +149,7 @@ world.beforeEvents.itemUse.subscribe(data => {
                 })
 
                 PlayersForm.show(data.source).then(response => {
-                  if (!response.canceled && response.selection) {
+                  if (!response.canceled && response.selection !== undefined) {
                     const selected_player = players[response.selection] as Player
 
                     new ActionFormData()
@@ -203,7 +203,7 @@ world.beforeEvents.itemUse.subscribe(data => {
                                           })
 
                                           PlayerRoleGlobalForm.show(data.source).then(response => {
-                                            if (!response.canceled && response.selection) {
+                                            if (!response.canceled && response.selection !== undefined) {
                                               const selected_role = roles[response.selection]
                                               SetPlayerRole(selected_player, selected_role)
                                             }
