@@ -5,10 +5,15 @@
     "watch": "conc \"tsc --watch\" \"regolith watch\""
   },
   "dependencies": {
-    "@minecraft/server": "^1.12.0-beta.1.21.0-stable",
-    "@minecraft/server-gametest": "^1.0.0-beta.1.21.0-stable",
-    "@minecraft/server-net": "^1.0.0-beta.1.21.0-stable",
-    "@minecraft/server-ui": "^1.2.0-beta.1.21.0-stable"
+    "@minecraft/common": "^1.2.0",
+    "@minecraft/debug-utilities": "^1.0.0-beta.1.21.20-stable",
+    "@minecraft/server": "^1.14.0-beta.1.21.20-stable",
+    "@minecraft/server-admin": "^1.0.0-beta.1.21.20-stable",
+    "@minecraft/server-editor": "^0.1.0-beta.1.21.20-stable",
+    "@minecraft/server-gametest": "^1.0.0-beta.1.21.20-stable",
+    "@minecraft/server-net": "^1.0.0-beta.1.21.20-stable",
+    "@minecraft/server-ui": "^1.3.0-beta.1.21.20-stable",
+    "@minecraft/vanilla-data": "^1.21.20"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
