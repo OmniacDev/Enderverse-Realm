@@ -18,7 +18,6 @@
 			"minecraft:wearable": {
 				"slot": "slot.armor.head"
 			}
-		},
-		"events": {}
+		}
 	}
 }
