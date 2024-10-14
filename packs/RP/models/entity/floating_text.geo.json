@@ -4,7 +4,8 @@
 		{
 			"description": {
 				"identifier": "geometry.floating_text"
-			}
+			},
+			"bones": []
 		}
 	]
 }
