@@ -85,4 +85,5 @@ export function GetPlayerRole(player: Player): Role {
 
 export function SetPlayerRole(player: Player, role: string) {
   player.setDynamicProperty(config.properties.player_role, role)
+  player.nameTag = `§8[§r${GetPlayerRole(player)}§8]§r ${player.name}`
 }
