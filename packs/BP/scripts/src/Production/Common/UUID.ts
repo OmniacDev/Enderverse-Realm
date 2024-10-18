@@ -1,6 +1,10 @@
 export type UUID = string
 
 export namespace UUID {
+  const LUT: string[] = Array.from<string, string>({ length: 256 }, (_v, i) => {
+    return (i < 16 ? '0' : '') + i.toString(16)
+  })
+
   /**
    * Generates a random UUID (RFC4122 version 4 compliant).
    * @returns {string} The generated UUID.
@@ -10,10 +14,6 @@ export namespace UUID {
     const s = (Math.random() * 0x100000000) >>> 0
     const t = (Math.random() * 0x100000000) >>> 0
     const u = (Math.random() * 0x100000000) >>> 0
-
-    const LUT: string[] = Array.from<string, string>({ length: 256 }, (_v, i) => {
-      return (i < 16 ? '0' : '') + i.toString(16)
-    })
 
     return [
       LUT[r & 0xff],
