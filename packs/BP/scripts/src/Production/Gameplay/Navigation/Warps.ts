@@ -5,17 +5,13 @@ import { Spawn } from './Constants'
 
 world.beforeEvents.itemUse.subscribe(data => {
   if (data.itemStack.typeId === 'minecraft:compass') {
-    const WarpsForm = new ActionFormData()
-      .title('§8WARPS')
-      .button('§8Spawn')
-      .button('§8Games')
-      .button('§8Info')
-      // .button('§8KitPvP')
-      // .button('§8Adventure')
-      // .button('§8Arcade')
-      // .button('§8Skywars')
-      // .button('§8Bridge')
-      // .button('§8Spleef')
+    const WarpsForm = new ActionFormData().title('§8WARPS').button('§8Spawn').button('§8Games').button('§8Info')
+    // .button('§8KitPvP')
+    // .button('§8Adventure')
+    // .button('§8Arcade')
+    // .button('§8Skywars')
+    // .button('§8Bridge')
+    // .button('§8Spleef')
 
     system.run(() => {
       WarpsForm.show(data.source).then(result => {
@@ -27,11 +23,11 @@ world.beforeEvents.itemUse.subscribe(data => {
               break
             case 1:
               // Games
-              data.source.tryTeleport({ x: -26.50, y: 158.00, z: -236.50 }, { rotation: { x: 0, y: 90 } })
+              data.source.tryTeleport({ x: -26.5, y: 158.0, z: -236.5 }, { rotation: { x: 0, y: 90 } })
               break
             case 2:
               // Info
-              data.source.tryTeleport({ x: -35.50, y: 156.00, z: -279.50 }, { rotation: { x: 0, y: -90 }})
+              data.source.tryTeleport({ x: -35.5, y: 156.0, z: -279.5 }, { rotation: { x: 0, y: -90 } })
               break
             // case 1:
             //   // KitPvP
