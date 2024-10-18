@@ -8,12 +8,14 @@ world.beforeEvents.itemUse.subscribe(data => {
     const WarpsForm = new ActionFormData()
       .title('§8WARPS')
       .button('§8Spawn')
-      .button('§8KitPvP')
-      .button('§8Adventure')
-      .button('§8Arcade')
-      .button('§8Skywars')
-      .button('§8Bridge')
-      .button('§8Spleef')
+      .button('§8Games')
+      .button('§8Info')
+      // .button('§8KitPvP')
+      // .button('§8Adventure')
+      // .button('§8Arcade')
+      // .button('§8Skywars')
+      // .button('§8Bridge')
+      // .button('§8Spleef')
 
     system.run(() => {
       WarpsForm.show(data.source).then(result => {
@@ -24,29 +26,37 @@ world.beforeEvents.itemUse.subscribe(data => {
               data.source.tryTeleport(Spawn.location, { rotation: Spawn.rotation })
               break
             case 1:
-              // KitPvP
-              data.source.tryTeleport(Gamemodes[0].location, { rotation: Gamemodes[0].rotation })
+              // Games
+              data.source.tryTeleport({ x: -26.50, y: 158.00, z: -236.50 }, { rotation: { x: 0, y: 90 } })
               break
             case 2:
-              // Adventure
-              data.source.tryTeleport(Gamemodes[1].location, { rotation: Gamemodes[1].rotation })
+              // Info
+              data.source.tryTeleport({ x: -35.50, y: 156.00, z: -279.50 }, { rotation: { x: 0, y: -90 }})
               break
-            case 3:
-              // Arcade
-              data.source.tryTeleport(Gamemodes[2].location, { rotation: Gamemodes[2].rotation })
-              break
-            case 4:
-              // Skywars
-              data.source.tryTeleport(Gamemodes[3].location, { rotation: Gamemodes[3].rotation })
-              break
-            case 5:
-              // Bridge
-              data.source.tryTeleport(Gamemodes[4].location, { rotation: Gamemodes[4].rotation })
-              break
-            case 6:
-              // Spleef
-              data.source.tryTeleport(Gamemodes[5].location, { rotation: Gamemodes[5].rotation })
-              break
+            // case 1:
+            //   // KitPvP
+            //   data.source.tryTeleport(Gamemodes[0].location, { rotation: Gamemodes[0].rotation })
+            //   break
+            // case 2:
+            //   // Adventure
+            //   data.source.tryTeleport(Gamemodes[1].location, { rotation: Gamemodes[1].rotation })
+            //   break
+            // case 3:
+            //   // Arcade
+            //   data.source.tryTeleport(Gamemodes[2].location, { rotation: Gamemodes[2].rotation })
+            //   break
+            // case 4:
+            //   // Skywars
+            //   data.source.tryTeleport(Gamemodes[3].location, { rotation: Gamemodes[3].rotation })
+            //   break
+            // case 5:
+            //   // Bridge
+            //   data.source.tryTeleport(Gamemodes[4].location, { rotation: Gamemodes[4].rotation })
+            //   break
+            // case 6:
+            //   // Spleef
+            //   data.source.tryTeleport(Gamemodes[5].location, { rotation: Gamemodes[5].rotation })
+            //   break
           }
         }
       })
