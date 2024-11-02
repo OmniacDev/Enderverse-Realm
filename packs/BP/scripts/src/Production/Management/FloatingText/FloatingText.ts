@@ -8,7 +8,7 @@ world.beforeEvents.worldInitialize.subscribe(event => {
                 .filter(hit => hit.entity.typeId === 'ec:floating_text')
                 .sort((hit1, hit2) => hit1.distance - hit2.distance)[0]?.entity
 
-            if (text_entity) {
+            if (text_entity && event.source.hasTag('staff')) {
                 const main_form = new ActionFormData()
                     .title('Floating Text Editor')
                     .button('Edit Text')
