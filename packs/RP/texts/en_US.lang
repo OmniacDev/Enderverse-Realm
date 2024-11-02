@@ -1,4 +1,5 @@
 entity.ec:zombie_pirate.name=Pirate Zombie
+entity.ec:floating_text.name=Floating Text
 item.ec:coin=Coins
 item.ec:pirate_helmet=Pirate Hat
 item.ec:pirate_token=Pirate Hat Token

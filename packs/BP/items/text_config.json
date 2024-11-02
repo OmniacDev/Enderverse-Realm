@@ -2,14 +2,17 @@
 	"format_version": "1.21.40",
 	"minecraft:item": {
 		"description": {
-			"identifier": "ec:slapper_config"
+			"identifier": "ec:text_config"
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "Slapper Config"
+				"value": "Text Config"
 			},
 			"minecraft:max_stack_size": 1,
-			"minecraft:icon": "slapper_config"
+			"minecraft:icon": "text_config",
+			"minecraft:custom_components": [
+				"ec:text_config_component"
+			]
 		}
 	}
 }

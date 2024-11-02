@@ -114,6 +114,11 @@
 			"textures": [
 				"textures/items/admin_menu"
 			]
+		},
+		"text_config": {
+			"textures": [
+				"textures/items/text_config"
+			]
 		}
 	}
 }
