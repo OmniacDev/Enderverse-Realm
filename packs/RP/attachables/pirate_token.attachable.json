@@ -16,16 +16,12 @@
 				"default": "geometry.pirate_token"
 			},
 			"animations": {
-				"first_person_hold": "animation.pirate_token.first_person_hold",
-				"third_person_hold": "animation.pirate_token.third_person_hold"
+				"first_person_hold": "animation.pirate_token.first_person_hold"
 			},
 			"scripts": {
 				"animate": [
 					{
 						"first_person_hold": "c.is_first_person"
-					},
-					{
-						"third_person_hold": "!c.is_first_person"
 					}
 				]
 			}
