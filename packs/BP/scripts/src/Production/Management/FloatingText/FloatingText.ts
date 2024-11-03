@@ -1,9 +1,12 @@
-import { Vector3, world } from '@minecraft/server'
+import { Entity, Vector3, world } from '@minecraft/server'
 import { ActionFormData, MessageFormData, ModalFormData } from '@minecraft/server-ui'
 
 world.beforeEvents.worldInitialize.subscribe(event => {
     event.itemComponentRegistry.registerCustomComponent('ec:text_config_component', {
         onUse(event) {
+            const text_entities = event.source.dimension.getEntities({ location: event.source.location, maxDistance: 16, type: 'ec:floating_text'})
+            text_entities.forEach(text => event.source.spawnParticle('minecraft:villager_happy', { x: text.location.x, y: text.location.y + 0.05,z: text.location.z }))
+
             const text_entity = event.source.getEntitiesFromViewDirection({maxDistance: 4})
                 .filter(hit => hit.entity.typeId === 'ec:floating_text')
                 .sort((hit1, hit2) => hit1.distance - hit2.distance)[0]?.entity

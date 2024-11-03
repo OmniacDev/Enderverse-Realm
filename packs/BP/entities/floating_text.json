@@ -26,48 +26,6 @@
 			"minecraft:nameable": {
 				"always_show": true,
 				"allow_name_tag_renaming": true
-			},
-			"minecraft:lookat": {
-				"search_radius": 4,
-				"set_target": false,
-				"allow_invulnerable": true,
-				"look_cooldown": [
-					0,
-					0
-				],
-				"filters": {
-					"all_of": [
-						{
-							"subject": "other",
-							"test": "is_family",
-							"value": "player"
-						},
-						{
-							"subject": "other",
-							"test": "has_tag",
-							"operator": "equals",
-							"value": "staff"
-						},
-						{
-							"subject": "other",
-							"test": "has_equipment",
-							"domain": "hand",
-							"operator": "equals",
-							"value": "ec:text_config"
-						}
-					]
-				},
-				"look_event": {
-					"event": "ec:looked_at",
-					"target": "self"
-				}
-			}
-		},
-		"events": {
-			"ec:looked_at": {
-				"queue_command": {
-					"command": "particle ec:floating_text_highlight ~~0.05~"
-				}
 			}
 		}
 	}
