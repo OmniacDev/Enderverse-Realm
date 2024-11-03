@@ -24,7 +24,7 @@ world.beforeEvents.worldInitialize.subscribe(event => {
                     .submitButton('Confirm')
 
                 const edit_position_form = new ModalFormData()
-                    .title('Edit Text')
+                    .title('Edit Position')
                     .textField('X', '', text_entity.location.x.toString())
                     .textField('Y', '', text_entity.location.y.toString())
                     .textField('Z', '', text_entity.location.z.toString())
