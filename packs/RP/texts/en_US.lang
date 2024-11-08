@@ -4,4 +4,6 @@ item.ec:coin=Coins
 item.ec:pirate_helmet=Pirate Hat
 item.ec:pirate_token=Pirate Hat Token
 item.spawn_egg.entity.ec:zombie_pirate.name=Spawn Pirate Zombie
-
+item.ec:ameythst_hoe=§5Amethyst Hoe
+item.ec:diamond_hoe=§bDiamond Hoe
+item.ec:stone_hoe=§hStone Hoe
