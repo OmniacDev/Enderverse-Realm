@@ -122,17 +122,17 @@
 		},
 		"ameythst_hoe_texture": {
 				"textures": [
-					"textures/items/ameythst_texture_hoe.png"
+					"textures/items/ev_amethyst_hoe.png"
 				]
 		},
 		"diamond_hoe_texture": {
 				"textures": [
-					"textures/items/diamond_texture_hoe.png"
+					"textures/items/ev_diamond_hoe.png"
 			]
 		},
 		"stone_hoe_texture": {
 				"textures": [
-					"textures/items/stone_texture_hoe.png"
+					"textures/items/ev_stone_hoe.png"
 				]
 		}
 	}
