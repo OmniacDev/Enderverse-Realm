@@ -119,6 +119,21 @@
 			"textures": [
 				"textures/items/text_config"
 			]
+		},
+		"ameythst_hoe_texture": {
+				"textures": [
+					"textures/items/ameythst_texture_hoe.png"
+				]
+		},
+		"diamond_hoe_texture": {
+				"textures": [
+					"textures/items/diamond_texture_hoe.png"
+			]
+		},
+		"stone_hoe_texture": {
+				"textures": [
+					"textures/items/stone_texture_hoe.png"
+				]
 		}
 	}
 }
