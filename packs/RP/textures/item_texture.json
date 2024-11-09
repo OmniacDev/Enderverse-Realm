@@ -120,17 +120,17 @@
 				"textures/items/text_config"
 			]
 		},
-		"ameythst_hoe_texture": {
+		"ev_amethyst_hoe": {
 				"textures": [
 					"textures/items/ev_amethyst_hoe.png"
 				]
 		},
-		"diamond_hoe_texture": {
+		"ev_diamond_hoe": {
 				"textures": [
 					"textures/items/ev_diamond_hoe.png"
 			]
 		},
-		"stone_hoe_texture": {
+		"ev_stone_hoe": {
 				"textures": [
 					"textures/items/ev_stone_hoe.png"
 				]

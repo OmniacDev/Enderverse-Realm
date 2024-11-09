@@ -11,7 +11,7 @@
 		"components": {
 			"minecraft:max_stack_size": 1,
 			"minecraft:icon": {
-				"texture": "ameythst_hoe_texture"
+				"texture": "ev_amethyst_hoe"
 			},
 			"minecraft:damage": 4,
 			"minecraft:digger": {
